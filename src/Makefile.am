@@ -1,1 +1,1 @@
-SUBDIRS = thrift backend mydlp ui beacon mod_dlp
+SUBDIRS = thrift backend mydlp rest beacon mod_dlp

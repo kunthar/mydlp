@@ -1,6 +1,6 @@
-[submodule "src/ui/web"]
-	path = src/ui/web
-	url = https://github.com/mydlp/mydlp-web.git
 [submodule "src/beacon"]
 	path = src/beacon
 	url = git://github.com/mydlp/mydlp-beacon.git
+[submodule "src/rest"]
+	path = src/rest
+	url = git://github.com/mydlp/mydlp-rest-api.git

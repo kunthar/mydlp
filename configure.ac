@@ -66,7 +66,6 @@ AC_CONFIG_FILES([
 		src/backend/Makefile
 		src/backend/py/Makefile
 		src/beacon/Makefile
-		src/ui/Makefile
-		src/ui/web/Makefile
+		src/rest/Makefile
 	])
 AC_OUTPUT
