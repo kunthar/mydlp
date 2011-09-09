@@ -2,10 +2,10 @@ Source: mydlp
 Section: net
 Priority: optional
 Maintainer: H. Kerem Cevahir <kerem@medra.com.tr>
-Build-Depends: debhelper (>= 5), cdbs, autotools-dev, libtool, erlang-dev, erlang-nox, thrift, python, python-magic, maven2, sun-java6-jdk, erlang-mysql-driver, bayeserl, python-lxml, libxext6, libxtst6, wget, libtool, libelf-dev, libmagic-dev, apache2-dev, libboost-dev, libevent-dev
+Build-Depends: debhelper (>= 5), cdbs, autotools-dev, libtool, erlang-dev, erlang-nox, thrift, python, python-magic, maven2, sun-java6-jdk, erlang-mysql-driver, bayeserl, python-lxml, libxext6, libxtst6, wget, libtool, libelf-dev, libmagic-dev, apache2-dev, libboost-dev, libevent-dev, php5-cli
 Standards-Version: 3.8.0
 
 Package: mydlp
 Architecture: any
-Depends: ${erlang-nox:Depends}, openssl, python, python-magic, python-lxml, unrar, catdoc, pstotext, poppler-utils, thrift, erlang-mysql-driver, bayeserl, apache2, libapache2-mod-php5, php5-mysql, php5-pgsql, php5-mssql, php5-xsl, php5-ldap, php5-odbc, php5-sybase, mysql-server-5.1, mysql-client-5.1, coreutils, nmap, debianutils, iproute, grep, bash, p7zip-full, p7zip-rar, libelf1, libmagic1, binutils, procps, gzip
+Depends: ${erlang-nox:Depends}, openssl, python, python-magic, python-lxml, unrar, catdoc, pstotext, poppler-utils, thrift, erlang-mysql-driver, bayeserl, apache2, libapache2-mod-php5, php5-mysql, php5-pgsql, php5-mssql, php5-xsl, php5-ldap, php5-odbc, php5-sybase, mysql-server-5.1, mysql-client-5.1, coreutils, nmap, debianutils, iproute, grep, bash, p7zip-full, p7zip-rar, libelf1, libmagic1, binutils, procps, gzip, zendframework
 Description: An open source data loss prevention solution.
